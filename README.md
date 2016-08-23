@@ -1,7 +1,7 @@
 # RSSgrab
 
-[About](#about)
-[Configuration](#configuration)
+[About](#about)  
+[Configuration](#configuration)  
 [Verbose Mode](#verbose-mode)
 
 ## About
