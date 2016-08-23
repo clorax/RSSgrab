@@ -1,9 +1,15 @@
 # RSSgrab
 
+[About](#about)
+[Configuration](#configuration)
+[Verbose Mode](#verbose-mode)
+
+## About
+
 RSSgrab is a perl script that can parse RSS feeds and download linked files.
 For example, RSSgrab could parse the RSS feed for a podcast and download the podcast episodes, or parse a torrent RSS feed and download torrents that match certain criteria.  RSSgrab will only download files that are newer than its last run date/time.
 
-## config.xml
+## Configuration
 
 RSSgrab is configured via the config.xml file.
 
@@ -20,7 +26,7 @@ Further, you can configure RSSgrab to only download items that match a specfic s
 * **string**: the string to match for files that should be downloaded
 * **exception**: the string to match for files that should not be downloaded
 
-## verbose mode
+## Verbose Mode
 
 By default, RSSgrab will only output to the console the files it downloads.  By using the verbose command line option, RSSgrab will also output the files it skips due to configured exceptions as well as the files it skips due to not being newer than the previous run date/time.
 
