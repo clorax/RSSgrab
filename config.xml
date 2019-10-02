@@ -2,7 +2,7 @@
         <channel>
                 <config>
 			<logfile>rssgrab.log</logfile>
-			<target_dir>./grabbed/</torrent_dir>
+			<target_dir>./grabbed/</target_dir>
 		</config>
 		<feed>
                         <url></url>
